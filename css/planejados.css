@@ -1,0 +1,32 @@
+@font-face{font-family:"Orator Std Medium";src:url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.eot);src:url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.eot?#iefix) format("embedded-opentype"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.woff2) format("woff2"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.woff) format("woff"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.ttf) format("truetype"),url("../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.svg#Orator Std Medium") format("svg")}
+body{font-family:"Orator Std Medium";background-image:url(../img/background.png)}
+.container{background-color:#e28303;padding:0}
+.topo{background-color:#e28303}
+.jumbotron{padding:0;font-family:"Orator Std Medium"}
+h1{font-size:5em;font-family:arial,helvetica;color:#fff;margin:0;padding:0}
+.section{text-align:center;background-size:cover}
+.slide{background-size:cover}
+#section1{float:center;background-image:url(../img/planejados/rackcinza.jpg);padding:0}
+#section1 h1{transform:translateY(-50%);position:relative}
+#section2{float:center;background-image:url(../img/planejados/cozinhaescura.jpg);padding:0}
+#section3{float:center;background-image:url(../img/planejados/cozinhacinza.jpg);padding:0}
+#section3 h1{color:#000}
+#section4{float:center;background-image:url(../img/planejados/racknichos.jpg);padding:0}
+#infoMenu li a{color:#fff}
+.intro p{color:#fff}
+.controlArrow.prev{left:50px}
+.controlArrow.next{right:50px}
+@media (max-width: 753px){
+	#section1,#section2,#section3,#section4{width:100%}}
+@media screen and (min-width: 754px) and (max-width: 1279px){
+	.container{width:100%}
+	#section1,#section2,#section3,#section4{width:100%}
+	body#index a#home,body#somos a#quem,body#servico a#ser,body#contato a#con{padding:11px 23px 8px 22px}
+	.menu li h3 a:hover{padding:10px 23px 8px 22px}}
+@media (min-width:1280px){
+	body{width:100%}
+	.section{width:100%}
+	.jumbotron img{max-width:100%;max-height:800px;margin-top:-20px}
+	#section1,#section2,#section3,#section4{width:70%}
+	body#index a#home,body#somos a#quem,body#servico a#ser,body#contato a#con{padding:11px 23px 9px 22px}
+	.menu li h3 a:hover{padding:11px 10px 9px 10px}}

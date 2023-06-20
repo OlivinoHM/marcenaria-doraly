@@ -1,0 +1,87 @@
+@font-face{font-family:"Orator Std Medium";src:url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.eot);src:url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.eot?#iefix) format("embedded-opentype"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.woff2) format("woff2"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.woff) format("woff"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.ttf) format("truetype"),url("../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.svg#Orator Std Medium") format("svg")}
+body{background-image:url(../img/background.png)}
+.container{background-color:#e28303;margin:0 auto}
+.jumbotron{margin-top:0;padding:0
+}#titulo-esquerdo{text-align:left;text-transform:uppercase}
+.titulo1{float:left;color:#fff}
+.painel1{float:left;color:#fff;padding:5px}
+.painel p{display:inline-block;margin:1px;padding:5px;text-transform:uppercase}
+@media (max-width: 832px){
+    .container{margin:auto;width:100%}
+    .item{height:300px}
+    #slide img{width:100%;height:300px}
+    .painel{margin:5px 0;padding:5px;padding-top:20px;width:100%;margin-right:20px;font-family:"Orator Std Medium"}
+    #titulo-esquerdo{font-size:150%;margin:0;letter-spacing:15px}
+    #titulo-esquerdo:first-letter{font-size:150%}
+    .titulo1{width:100%}
+    .titulo2{display:none}
+    .painel1{margin-top:-15px;width:100%}
+    .painel2{display:none}
+    footer{padding:0}
+    footer .container{position:relative}
+    footer{clear:both;background-image:url(../img/fundo-rodape.jpg);height:150px;border-radius:3px}
+    .painel-footer{margin-top:10px}
+    .painel-footer table{width:100%;height:100%;border:5px;border-color:#fff}
+    .tb1{float:left;margin:0;margin-left:-40px;margin-top:20px}
+    .tb2{float:right;margin-top:20px}
+    .social li{float:left;padding:3px;list-style-type:none}
+    #face{margin-top:-40px}
+    #face img{height:22px;width:22px}
+    #whats{margin-top:55px;margin-left:-40px;padding-bottom:0}
+    #whats img{margin-top:0;height:22px;width:22px}
+    #logo-footer{margin-right:0;margin-top:-30px;padding-bottom:20px}
+    #logo-footer img{max-width:100px}
+    #maps li{margin-top:75px;margin-left:-40px;padding-bottom:0}
+    #maps img{height:27px;width:21px}}
+@media (min-width: 833px){
+    .jumbotron{margin-bottom:-20px}
+    #slide img{width:100%;height:100%}
+    #imagem{width:100px;height:200px}
+    .painel{font-family:"Orator Std Medium";margin:10px 0;padding:10px;width:50%}
+    .titulo1{font-family:"Orator Std Medium";width:60%}
+    .titulo2{font-family:"Orator Std Medium";float:right;background-color:rgba(255,255,240,1);width:30%;vertical-align:top}
+    .painel h2{font-weight:700;text-transform:uppercase;margin:0;text-align:center;font-family:"Orator Std Medium"}
+    .painel1{width:60%;font-family:"Orator Std Medium"}
+    .painel2{font-family:"Orator Std Medium";margin-top:-15px;float:right;background-color:rgba(255,255,240,0.7);width:30%}
+    footer{padding:0}
+    footer .container{position:relative}
+    footer{clear:both;background-image:url(../img/fundo-rodape.jpg);height:150px;border-radius:3px}
+    .painel-footer{margin-top:10px}
+    .painel-footer table{width:100%;height:100%;border:5px;border-color:#fff}
+    .tb1{float:left;height:130px;margin:0;margin-left:20px;margin-top:10px}
+    .tb2{float:right;margin-right:75px}
+    .social li{float:left;padding:10px;list-style-type:none}
+    #face{margin-top:-40px;margin-right:15px;padding-bottom:0}
+    #whats{margin-top:55px;margin-left:-25px;padding-bottom:0}
+    #whats img{margin-top:0;height:32px;width:32px}
+    #logo-footer{margin-right:10px;margin-top:5px;padding-bottom:20px}
+    #logo-footer img{max-width:200px}
+    #maps li{margin-top:55px;margin-left:-25px;padding-bottom:0}
+    #maps img{height:37px;width:25px}
+@media screen and (min-width: 833px) and (max-width: 1047px){
+    #titulo-esquerdo{font-size:250%;margin:0;margin-top:-25px;letter-spacing:25px}
+    #titulo-esquerdo:first-letter{font-size:150%}}
+@media screen and (min-width: 1047px) and (max-width: 1278px){
+    #titulo-esquerdo{font-size:350%;margin:0;margin-top:-45px;letter-spacing:25px}
+    #titulo-esquerdo:first-letter{font-size:150%}}
+@media screen and (min-width: 833px) and (max-width: 1279px){
+    .container{width:100%}
+    .painel{padding-top:40px;margin-right:40px}
+    .titulo2{margin-top:38px;padding:0}
+    .painel h2{font-size:250%}
+    .painel1{margin-top:-60px}}
+@media (min-width: 1280px){
+    body{background-image:url(../img/background.png);width:100%}
+    .painel h2{font-size:300%}}
+@media (max-width: 1919px){
+    .painel{padding-top:40px;margin-right:40px}
+    #titulo-esquerdo{font-size:400%;margin-top:-42px;letter-spacing:30px}
+    #titulo-esquerdo:first-letter{font-size:150%}
+    .titulo2{margin-top:40px;padding:0}
+    .painel1{margin-top:-60px}}
+@media (min-width: 1920px){
+    painel{padding-top:60px;margin-right:40px}
+    #titulo-esquerdo{font-size:350%;margin-top:-45px;letter-spacing:35px}
+    #titulo-esquerdo:first-letter{font-size:150%}
+    .titulo2{margin-top:50px;padding:0}
+    .painel1{margin-top:-80px}}

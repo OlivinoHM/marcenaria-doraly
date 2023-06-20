@@ -1,0 +1,122 @@
+@font-face{font-family:"Orator Std Medium";src:url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.eot);src:url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.eot?#iefix) format("embedded-opentype"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.woff2) format("woff2"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.woff) format("woff"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.ttf) format("truetype"),url("../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.svg#Orator Std Medium") format("svg")}
+#page{background-color:#e28303}
+body{font-family:"Orator Std Medium";background-image:url(../img/background.png)}
+.container{background-color:#e28303}
+.jumbotron{margin-top:0;padding:0;font-family:"Orator Std Medium"}
+div#page{background-color:#e28303;margin:0 auto;text-align:left}
+div#footer{clear:both;color:#fff;margin:0 auto;padding:20px 0 40px;text-align:center}
+#page img{border-radius:5px}
+div.content{display:none;float:right;background-color:#e28303}
+div.content a,div.navigation a{text-decoration:none;color:#000}d
+iv.content a:focus,div.content a:hover,div.content a:active{text-decoration:underline}
+div.controls{margin-top:5px;height:23px}
+div.controls a{padding:5px}
+div.ss-controls{float:left}
+div.nav-controls{float:right}
+div.slideshow-container{position:relative;clear:both}
+div.loader{position:absolute;top:0;left:0;background-image:url(loader.gif);background-repeat:no-repeat;background-position:center;height:502px}
+div.slideshow span.image-wrapper{display:block;position:absolute;top:0;left:0}
+div.slideshow a.advance-link{display:block;height:502px;text-align:center}
+div.slideshow a.advance-link:hover,div.slideshow a.advance-link:active,div.slideshow a.advance-link:visited{text-decoration:none}
+div.slideshow img{vertical-align:middle;border:1px solid #ccc}
+div.download{float:right}
+div.caption-container{position:relative;clear:left}
+span.image-caption{display:block;position:absolute;top:0;left:0}
+div.caption{padding:12px;margin-left:25px;color:#000}
+div.image-title{font-weight:700}
+div.image-desc{line-height:1.3em;padding-top:12px;margin-left:10px}
+.titulo-img-esquerdo{font-size:18px}
+ul.thumbs{clear:both;margin:0;padding:0}
+ul.thumbs li{float:left;padding:0;margin:5px 10px 5px 0;list-style:none}
+a.thumb{padding:2px;display:block;border:0 solid #ccc}
+ul.thumbs li.selected a.thumb{background:#58167d;border-radius:5px;color:#fff}
+a.thumb:focus{outline:none}
+ul.thumbs img{border:none;display:block}
+div.pagination{clear:both}
+div.navigation div.top{margin-bottom:12px;height:11px}
+div.navigation div.bottom{margin-right:0;position:static;text-align:center}
+div.pagination a,div.pagination span.current,div.pagination span.ellipsis{display:block;float:left;margin-right:2px}
+div.pagination a:hover{background-color:#eee;text-decoration:none}
+div.pagination span.current{font-weight:700;background-color:#58167d;border-color:#000;color:#fff}
+div.pagination span.ellipsis{border:none}
+div.navigation div.bottom{margin-top:0}
+@media (max-width: 753px){
+    div.content{width:330px;margin-right:15px}
+    div.slideshow a.advance-link{display: none}
+    div.slideshow img{display: none}
+    span.image-caption{display: none}
+    div.image-title{display: none}
+    div.image-desc{font-size:16px;display: none}
+    div.navigation{margin-left:55px}
+    ul.thumbs{display:table;}
+    div.pagination a,div.pagination span.current,div.pagination span.ellipsis{padding:0 3px;font-size:16px}
+    div.pagination span.ellipsis{padding:0 2px}
+    footer .container{position:relative;}
+    footer{margin-top:-30px;clear:both;background-image:url(../img/fundo-rodape.jpg);height:150px;border-radius: 3px}
+    .painel-footer{margin-top:10px}
+    .painel-footer table{width:100%;height:100%;border:5px;border-color:white}
+    .tb1{float:left;margin:0px;margin-left:0px;margin-top:10px}
+    .tb2{float:right}
+    .social li{float:left;padding:5px;list-style-type:none}
+    #face{margin-top:0px;padding-bottom:0px;}
+    #face img{margin-top:0px;height:22px;width:22px}
+    #whats{margin-top:45px;margin-left:10px;padding-bottom:0px}
+    #whats img{margin-top:0px;height:22px;width:22px}
+    #logo-footer{margin-right:0px;margin-top:0px;padding-bottom:0px}
+    #logo-footer img{max-width:100px}
+    #maps li{margin-top:80px;margin-left:0px;padding-bottom:0px}
+    #maps img{height:27px;width:21px}}
+@media screen and (min-width: 754px) and (max-width: 1279px){
+    .container{width:100%}
+    div.content{margin-right:30px;width:490px}
+    div.image-desc{font-size:20px}
+    div.pagination a,div.pagination span.current,div.pagination span.ellipsis{padding:4px 7px 2px;border:1px solid #ccc}
+    div.pagination span.ellipsis{padding:5px 0 3px 2px}
+    span.image-caption{width:400px;margin-top:350px}
+    div.slideshow img{max-width:400px;float:right}
+    span.image-caption{margin-left:55px;font-size:38px;margin-top:400px}
+    div.image-title{font-size:30px}
+    div.loader{width:490px}
+    div.slideshow a.advance-link{width:490px}
+    div.navigation{margin-left:40px}
+    div.slideshow-container{height:0;margin-top:30px}}
+@media screen and (min-width: 754px){
+    footer{padding:0}
+    footer .container{position:relative}
+    footer{clear:both;background-image:url(../img/fundo-rodape.jpg);height:150px;border-radius:3px;margin-top:-30px}
+    .painel-footer{margin-top:-10px}
+    .painel-footer table{width:100%;height:100%;border:5px;border-color:#fff}
+    .tb1{float:left;margin:0;margin-left:40px;margin-top:10px}
+    .tb2{margin-top:10px;float:right;margin-right:75px}
+    .social li{float:left;padding:10px;list-style-type:none}
+    #face{margin-top:10px;margin-right:10px;padding-bottom:0}
+    #whats{margin-top:px;margin-left:10px;padding-bottom:0}
+    #whats img{margin-top:0;height:32px;width:32px}
+    #logo-footer{margin-right:10px;margin-top:5px}
+    #logo-footer img{max-width:200px}
+    #maps li{margin-top:0;margin-left:10px;padding-bottom:15px}
+    #maps img{height:37px;width:25px}}
+@media screen and (min-width: 768px) and (max-width: 799px){
+    span.image-caption{width:400px}
+    div.slideshow img{max-width:400px}
+    span.image-caption{margin-left:55px;font-size:38px}
+    div.image-title{font-size:30px}}
+@media screen and (min-width: 800px) and (max-width: 979px){
+    span.image-caption{width:500px}
+    div.slideshow img{max-width:450px}
+    span.image-caption{margin-top:350px}
+    div.image-title{font-size:30px}}
+@media screen and (min-width: 980px) and (max-width: 1279px){
+    div.content{width:550px}
+    div.loader{width:550px}
+    div.slideshow a.advance-link{line-height:10px}
+    div.caption-container{height:75px}
+    span.image-caption{width:550px}
+    div.image-title{font-size:40px}
+    div.image-desc{font-size:20px}
+    div.navigation{margin-left:50px}
+    div.slideshow img{max-width:550px}
+    span.image-caption{margin-left:-20px;margin-top:400px}}
+@media (min-width:1280px){
+    body{width:100%}div.content{width:650px;margin-right:30px}div.slideshow-container{height:452px;margin-top:-3px}div.loader{width:650px;height:502px}div.slideshow a.advance-link{line-height:502px}div.caption-container{height:75px}span.image-caption{width:650px}div.image-title{font-size:40px}div.image-desc{font-size:20px}div.navigation{margin-left:50px}div.navigation div.bottom{margin-top:200px}div.pagination a,div.pagination span.current,div.pagination span.ellipsis{padding:4px 7px 2px;border:1px solid #ccc}div.pagination span.ellipsis{padding:5px 0 3px 2px}div.slideshow img{max-width:650px}}
+

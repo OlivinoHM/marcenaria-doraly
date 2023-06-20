@@ -1,0 +1,34 @@
+@font-face{font-family:"Orator Std Medium";src:url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.eot);src:url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.eot?#iefix) format("embedded-opentype"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.woff2) format("woff2"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.woff) format("woff"),url(../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.ttf) format("truetype"),url("../fonts/a4f6ea3c821d0ee0d7ceaf58004371ea.svg#Orator Std Medium") format("svg")}
+body{font-family:"Orator Std Medium"}
+header{position:relative}
+#logodoraly img{margin-top:20px;max-width:60%;position:relative;margin-bottom:20px}
+#logodoraly{margin-top:0;position:relative;text-align:center}
+.menu{font-weight:700}
+.menu li{list-style-type:none}
+.menu ul{display:table}
+body#index a#home,body#somos a#quem,body#servico a#ser,body#contato a#con{position:relative}
+@media (max-width: 756px){
+    .menu{text-align:center;background-color:#58167d}
+    .menu li h3 a{color:#fff;text-decoration:none;padding:20px;letter-spacing:3px;font-weight:700;font-size:26px;width:100%;font-family:"Orator Std Medium"}
+    .menu ul{width:100%}
+    body#index a#home,body#somos a#quem,body#servico a#ser,body#contato a#con{color:#e18301;position:relative}}
+@media screen and (min-width: 757px) and (max-width: 1279px){
+    #logodoraly img{max-width:30%}
+    header{position:relative;background-color:#58167d}
+    .menu{margin:0 auto;position:relative;width:100%;height:55px;background-color:#58167d}
+    .menu li{float:left;margin:2px 0 0}
+    .menu ul{margin-left:auto;margin-right:auto;text-align:center;margin-top:-10px}
+    .menu li h3 a{color:#fff;text-decoration:none;font-size:28px;padding:10px 23px 10px 22px;width:100%;font-family:"Orator Std Medium"}
+    .menu li h3 a:hover{color:#000;background-color:#e18301;position:relative;padding:10px 23px 10px 22px}
+    body#index a#home,body#somos a#quem,body#servico a#ser,body#contato a#con{color:#000;background-color:#e18301;padding:10px 23px 10px 22px}}
+@media (min-width: 1280px){
+    #logodoraly img{margin-top:20px;max-width:20%;position:relative;margin-bottom:20px}
+    #logodoraly{margin-top:0;position:relative;text-align:center}
+    header{position:relative;background-color:#58167d;margin-top:-10px}
+    .menu{margin:0 auto;position:relative;width:100%;margin-top:10px;height:5px;background-color:#e18301}
+    .espaco-canto{margin-left:50%}
+    .menu li{float:left;margin-top:-10px}
+    .menu li h3 a{color:#fff;text-decoration:none;padding:18px 10px 6px;font-family:"Orator Std Medium"}
+    .menu li h3 a:hover{color:#000;background-color:#e18301;position:relative;padding:20px 10px 11px}
+    .menu ul{margin-top:5px;background-color:#58167d;width:100%;float:right;margin-bottom:0}
+    body#index a#home,body#somos a#quem,body#servico a#ser,body#contato a#con{color:#000;background-color:#e18301;padding:11px 23px 15px 22px}}
